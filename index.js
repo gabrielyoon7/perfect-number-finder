@@ -7,4 +7,8 @@ const findDivisor = (num) => {
     }
     return arr;
 }
-console.log(findDivisor(28))
+
+const sumOfDivisors = (arr) => arr.reduce((a,b)=>a+b,0);
+
+console.log(sumOfDivisors(findDivisor(28)))
+
