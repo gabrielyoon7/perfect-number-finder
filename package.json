@@ -1,0 +1,22 @@
+{
+  "name": "perfect-number-finder",
+  "version": "1.0.0",
+  "description": "졸업시험 알고리즘 기술용 레포",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielyoon7/perfect-number-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielyoon7/perfect-number-finder/issues"
+  },
+  "homepage": "https://github.com/gabrielyoon7/perfect-number-finder#readme"
+}
