@@ -1,10 +1,14 @@
 const fn = require("./fn");
 
-test('2더하기 3은 5야.', () => {
-    expect(fn.add(2, 3)).toEqual(5);
+test('121', () => {
+    expect(fn.isPerfectNumber(121)).toBeFalsy();
 });
-
-test('ㅇㅇ', () => {
-    // expect(fn.isPerfectNumber(28)).toBeFalsy();
-    expect(fn.isPerfectNumber(28)).toBeTruthy();
+test('486', () => {
+    expect(fn.isPerfectNumber(486)).toBeFalsy();
+});
+test('496', () => {
+    expect(fn.isPerfectNumber(496)).toBeTruthy();
+});
+test('512', () => {
+    expect(fn.isPerfectNumber(512)).toBeFalsy();
 });
