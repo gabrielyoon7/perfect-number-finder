@@ -10,5 +10,11 @@ const findDivisor = (num) => {
 
 const sumOfDivisors = (arr) => arr.reduce((a,b)=>a+b,0);
 
-console.log(sumOfDivisors(findDivisor(28)))
+const isPerfectNumber = (num) => num*2===sumOfDivisors(findDivisor(num));
+
+console.log(isPerfectNumber(28))
+console.log(isPerfectNumber(121))
+console.log(isPerfectNumber(486))
+console.log(isPerfectNumber(496))
+console.log(isPerfectNumber(512))
 
